@@ -18,7 +18,7 @@ public class ContatoPage {
 	private static WebElement campoTelefone;
 	private static WebElement campoMensagem;
 	private static WebElement labelDeMensagemDeSucesso;
-s
+
 	public static void irPara(UniritterContexto pContext) {
 		contexto = pContext;
 

@@ -26,7 +26,7 @@ public class ContatoPage {
 		contexto.driver.findElement(By.cssSelector("a[title=\"Fale Consoco\"]")).click();
 
 		mapearElementos();
-		//Primeiros elementos de carregamento.
+		//Primeiros elementos de carregamento 2.
 	}
 
 	private static void mapearElementos() {

@@ -40,9 +40,11 @@
         <junit fork="yes" printsummary="withOutAndErr">
             <formatter type="xml"/>
             <test name="com.example.tests.UniritterContatoValidacaoTest" todir="${junit.output.dir}"/>
+    		<classpath location="lib/junit-4.11.jar" />
+    		<classpath location="lib/hamcrest-core-1.3.jar" />
             <classpath refid="TrabalhoFinal.classpath"/>
         </junit>
-    </target>
+    </target>            	
     <target name="junitreport">
         <junitreport todir="${junit.output.dir}">
             <fileset dir="${junit.output.dir}">
